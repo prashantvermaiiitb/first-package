@@ -7,3 +7,9 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin git@github.com:prashantvermaiiitb/first-package.git
 git push -u origin master
+
+# for the https 
+
+git remote add origin https://github.com/prashantvermaiiitb/first-package.git
+git branch -M master
+git push -u origin master
