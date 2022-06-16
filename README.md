@@ -13,3 +13,13 @@
 git remote add origin https://github.com/prashantvermaiiitb/first-package.git
 <br>git branch -M master
 <br>git push -u origin master
+
+# 
+
+npm link in the package directory, will create link for this package that way if you try to install 
+from some where else then it will install from this location.
+
+name of the package in package json is important.
+
+1. this will be used while publishing the package internally "npm link" 
+2. this will be used when linking the package "npm link <name of the package>"
