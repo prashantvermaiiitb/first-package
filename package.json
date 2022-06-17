@@ -1,5 +1,5 @@
 {
-  "name": "mathlib",
+  "name": "sample-mathlib",
   "version": "1.0.0",
   "description": "Simple addition multiplication substraction division repository",
   "main": "index.js",
