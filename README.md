@@ -22,7 +22,7 @@ from some where else then it will install from this location.
 name of the package in package json is important.
 
 1. this will be used while publishing the package internally "npm link" 
-2. this will be used when linking the package "npm link <name of the package>"
+2. this will be used when linking the package "npm link <name of the package1>  <name of the package2>.."
 
 # How to publish the package
 <br>1. for this you should have account in NPM 
