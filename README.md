@@ -1,4 +1,4 @@
-# publishing 1st NPM package
+# 1. publishing 1st NPM package
 
 <br>echo "# first-package" >> README.md
 <br>git init
@@ -8,13 +8,13 @@
 <br>git remote add origin git@github.com:prashantvermaiiitb/first-package.git
 <br>git push -u origin master
 
-# for the https 
+# 2. for the https 
 
 git remote add origin https://github.com/prashantvermaiiitb/first-package.git
 <br>git branch -M master
 <br>git push -u origin master
 
-# Creating NPM link for the package in test
+# 3. Creating NPM link for the package in test
 
 npm link in the package directory, will create link for this package that way if you try to install 
 from some where else then it will install from this location.
@@ -24,7 +24,7 @@ name of the package in package json is important.
 1. this will be used while publishing the package internally "npm link" 
 2. this will be used when linking the package "npm link <name of the package1>  <name of the package2>.."
 
-# How to publish the package
+# 4. How to publish the package
 <br>1. for this you should have account in NPM 
 <br>2. Login from that account in NPM and verify that account.
 <br>3. Then come back in VScode or to the root directory of the package to be published.
@@ -33,3 +33,7 @@ name of the package in package json is important.
 <br>6. Command "npm publish" is used to publish the package.
 <br>7. Ensure that email id is verified , package name is unique or within scope before publishing to avoid 403 Forbidden error.
 <br>8. if all is fine then package is published.
+<br>9. To rollout a scoped package 
+        <br>1. initialise the NPM repo with scope "npm init --scope=@<NPM user name>" example @babel
+        <br>2. This will create a scoped package json either press ENTER key or write name for the package.
+        <br>3. then publish it using 'npm publish --scope="publish"'
